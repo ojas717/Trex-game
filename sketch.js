@@ -76,7 +76,7 @@ restart.visible = false;
 }
 
 function draw() {
-  background("cyan");
+  background("pink");
   
   count = count + Math.round(getFrameRate()/60)
   text("Score: "+ count , 500,50);
